@@ -1,0 +1,1118 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Johnatas Barreto</Author>
+  <LastAuthor>Johnatas Barreto</LastAuthor>
+  <Created>2003-01-28T16:09:39Z</Created>
+  <LastSaved>2018-07-20T14:19:55Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9120</WindowHeight>
+  <WindowWidth>12120</WindowWidth>
+  <WindowTopX>360</WindowTopX>
+  <WindowTopY>75</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="MS Sans Serif"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Font ss:FontName="MS Sans Serif" x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Font ss:FontName="MS Sans Serif" x:Family="Swiss" ss:Bold="1"/>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s66">
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Font ss:FontName="MS Sans Serif" x:Family="Swiss" ss:Bold="1"/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s68">
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Borders/>
+   <Font ss:FontName="MS Sans Serif" x:Family="Swiss" ss:Bold="1"/>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Borders/>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Font ss:FontName="MS Sans Serif" x:Family="Swiss" ss:Bold="1"/>
+   <NumberFormat ss:Format="0.00;[Red]0.00"/>
+  </Style>
+  <Style ss:ID="s72">
+   <NumberFormat ss:Format="0.00;[Red]0.00"/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="Produtos" ss:RefersTo="=Produtos!R1C1:R1C40"/>
+ </Names>
+ <Worksheet ss:Name="Produtos">
+  <Table ss:ExpandedColumnCount="42" ss:ExpandedRowCount="34" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:Width="56.25"/>
+   <Column ss:Width="54.75"/>
+   <Column ss:StyleID="s66" ss:Width="58.5"/>
+   <Column ss:Width="52.5"/>
+   <Column ss:Width="62.25"/>
+   <Column ss:StyleID="s68" ss:Width="33.75"/>
+   <Column ss:Width="60"/>
+   <Column ss:Width="69.75"/>
+   <Column ss:Width="60"/>
+   <Column ss:Width="63.75"/>
+   <Column ss:StyleID="s66" ss:Width="49.5"/>
+   <Column ss:StyleID="s70" ss:Width="86.25"/>
+   <Column ss:Width="62.25"/>
+   <Column ss:StyleID="s68" ss:Width="39"/>
+   <Column ss:StyleID="s72" ss:Width="36"/>
+   <Column ss:StyleID="s72" ss:Width="37.5"/>
+   <Column ss:StyleID="s72" ss:Width="64.5"/>
+   <Column ss:StyleID="s72" ss:Width="58.5"/>
+   <Column ss:StyleID="s72" ss:Width="85.5"/>
+   <Column ss:Width="86.25"/>
+   <Column ss:Width="77.25"/>
+   <Column ss:Width="69.75"/>
+   <Column ss:Width="73.5"/>
+   <Column ss:Width="72.75"/>
+   <Column ss:Width="66"/>
+   <Column ss:Width="71.25"/>
+   <Column ss:Width="61.5" ss:Span="2"/>
+   <Column ss:Index="30" ss:Width="69.75" ss:Span="2"/>
+   <Column ss:Index="33" ss:Width="37.5"/>
+   <Column ss:Width="66"/>
+   <Column ss:StyleID="s66" ss:Width="75.75"/>
+   <Column ss:Width="62.25"/>
+   <Column ss:Width="56.25"/>
+   <Column ss:Width="92.25"/>
+   <Column ss:Width="120.75"/>
+   <Column ss:Width="87.75"/>
+   <Column ss:Width="87"/>
+   <Column ss:Width="99"/>
+   <Row ss:StyleID="s64">
+    <Cell><Data ss:Type="String">Comando</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">NomeCat</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">IDProduto</Data><NamedCell
+      ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">CodProd</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">NomeProd</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Peso</Data><NamedCell
+      ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">Descricao</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">DescrLonga</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">DescrURL</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">URLTarget</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Estoque</Data><NamedCell
+      ss:Name="Produtos"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">EstoqueMinimo</Data><NamedCell
+      ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">Disponivel</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ICMS</Data><NamedCell
+      ss:Name="Produtos"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Custo</Data><NamedCell
+      ss:Name="Produtos"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Preco</Data><NamedCell
+      ss:Name="Produtos"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">PrecoProm</Data><NamedCell
+      ss:Name="Produtos"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">PrecoB2B</Data><NamedCell
+      ss:Name="Produtos"/></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">PrecoB2BProm</Data><NamedCell
+      ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">DataPromInicio</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">DataPromFim</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">Lancamento</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">EmDestaque</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">ImagemProd</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">ImagemDet</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">ImagemAmp</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">Adicional1</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">Adicional2</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">Adicional3</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">AdicionalD1</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">AdicionalD2</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">AdicionalD3</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">Cores</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">OrdemProd</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">IDProdutoPai</Data><NamedCell
+      ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">RamoProd</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">MaisProd</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">DataVencimento</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">DiasAvisoVencimento</Data><NamedCell
+      ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">DiasReposicao</Data><NamedCell ss:Name="Produtos"/></Cell>
+    <Cell><Data ss:Type="String">IDParceiroProd</Data></Cell>
+    <Cell><Data ss:Type="String">MaxParcelasProd</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000001</Data></Cell>
+    <Cell><Data ss:Type="String">Emoji Três Corações</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Almofada Emoji,Três Corações&#160; confeccionada em tecido pelúcia, acabamento&lt;br/&gt;em tecido e costura, enchimento fibra de silicone antialérgico tamanho de&lt;br/&gt;33cm&lt;span&gt;&#160; &lt;/span&gt;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000002</Data></Cell>
+    <Cell><Data ss:Type="String">Emoji Apaixonado</Data></Cell>
+    <Cell><Data ss:Type="Number">0.2</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Almofada Emoji, Apaixonado confeccionada em tecido pelúcia, acabamento&lt;br/&gt;em tecido e costura, enchimento fibra de silicone antialérgico tamanho de 33cm &lt;span&gt;&#160;&lt;/span&gt;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000003</Data></Cell>
+    <Cell><Data ss:Type="String">Emoji Abraço</Data></Cell>
+    <Cell><Data ss:Type="Number">0.2</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Almofada Emoji, confeccionada em tecido pelúcia, acabamento&lt;br/&gt;em tecido e costura, enchimento fibra de silicone antialérgico tamanho de 33cm &lt;span&gt;&#160;&lt;/span&gt;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000004</Data></Cell>
+    <Cell><Data ss:Type="String">Emoji Nerd Girl</Data></Cell>
+    <Cell><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">24.44</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000005</Data></Cell>
+    <Cell><Data ss:Type="String">Emoji Beijo Apaixonado</Data></Cell>
+    <Cell><Data ss:Type="Number">0.11</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Almofada Emoji, Beijo Apaixonado confeccionada em tecido pelúcia, acabamento&lt;br/&gt;em tecido e costura, enchimento fibra de silicone antialérgico tamanho de&lt;br/&gt;33cm&lt;span&gt;&#160; &lt;/span&gt;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">Emoji Unicornio dupla face</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Almofada Emoji Unicórnio&lt;/p&gt;&lt;p&gt;&#160;confeccionada em tecido pelúcia anti alérgico, enchimente de microfibra sintética anti alérgico&#160;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000007</Data></Cell>
+    <Cell><Data ss:Type="String">Emoji Unicornio Simples</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000008</Data></Cell>
+    <Cell><Data ss:Type="String">Emoji Macaco Cego</Data></Cell>
+    <Cell><Data ss:Type="Number">0.11</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Almofada Emoji Macaco Cego, Tecido Pelúcia, enchimento Fibra de Silicone antialérgico&#160;&#160;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000009</Data></Cell>
+    <Cell><Data ss:Type="String">Emoji Realizado</Data></Cell>
+    <Cell><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000010</Data></Cell>
+    <Cell><Data ss:Type="String">Emoji Soninho</Data></Cell>
+    <Cell><Data ss:Type="Number">0.02</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000011</Data></Cell>
+    <Cell><Data ss:Type="String">Emoji Fantasma</Data></Cell>
+    <Cell><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Almofada Emoji, fantasma confeccionada em tecido pelúcia, acabamento&lt;br/&gt;em tecido e costura, enchimento fibra de silicone antialérgico tamanho de&lt;br/&gt;33cm&lt;span&gt;&#160; &lt;/span&gt;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000012</Data></Cell>
+    <Cell><Data ss:Type="String">Emoji Indiferente</Data></Cell>
+    <Cell><Data ss:Type="Number">0.03</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Almofada Emoji, confeccionada em tecido pelúcia, acabamento&lt;br/&gt;em tecido e costura, enchimento fibra de silicone antialérgico tamanho de&lt;br/&gt;33cm&lt;span&gt;&#160; &lt;/span&gt;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Canecas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000013</Data></Cell>
+    <Cell><Data ss:Type="String">Caneca Simples Branca</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Caneca Simples Branca, varias estampas&#160;&lt;br/&gt;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000014</Data></Cell>
+    <Cell><Data ss:Type="String">Almofada Harry potter</Data></Cell>
+    <Cell><Data ss:Type="Number">0.2</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Almofada Harry potter, confeccionada em tecido pelúcia, acabamento&lt;br/&gt;em tecido e costura, enchimento fibra de silicone antialérgico tamanho de&lt;br/&gt;33cm&lt;span&gt;&#160; &lt;/span&gt;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000015</Data></Cell>
+    <Cell><Data ss:Type="String">Frida Kahlo</Data></Cell>
+    <Cell><Data ss:Type="Number">0.2</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Almofada Frida Khalo, confeccionada em tecido pelúcia, acabamento&lt;br/&gt;em tecido e costura, enchimento fibra de silicone antialérgico tamanho de&lt;br/&gt;35cm&lt;span&gt;&#160; &lt;/span&gt;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000016</Data></Cell>
+    <Cell><Data ss:Type="String">Almofada Whatsapp</Data></Cell>
+    <Cell><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Almofada Whatsapp, confeccionada em tecido pelúcia, acabamento&lt;br/&gt;em tecido e costura, enchimento fibra de silicone antialérgico tamanho de&lt;br/&gt;33cm&lt;span&gt;&#160; &lt;/span&gt;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000017</Data></Cell>
+    <Cell><Data ss:Type="String">Dente Apaixonado</Data></Cell>
+    <Cell><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Almofada Dente , confeccionada em tecido pelúcia, acabamento&lt;br/&gt;em tecido e costura, enchimento fibra de silicone antialérgico tamanho de&lt;br/&gt;33cm&lt;span&gt;&#160; &lt;/span&gt;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000018</Data></Cell>
+    <Cell><Data ss:Type="String">Donut cobertura Morango</Data></Cell>
+    <Cell><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;blockquote&gt;&lt;p&gt;Almofada Donuts Cobertura Morango, confeccionada em tecido pelúcia, acabamento&#160;&lt;span&gt;em tecido Veludo e costura, enchimento fibra de silicone antialérgico tamanho de&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;33cm&lt;span&gt;&#160; &lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Canecas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000019</Data></Cell>
+    <Cell><Data ss:Type="String">Caneca Magica</Data></Cell>
+    <Cell><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Caneca Magica Personalizada, caneca resinada com pintura térmica, 325ml cilíndrica&#160;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Kits</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000020</Data></Cell>
+    <Cell><Data ss:Type="String">Kits Almofada, Caneca e Chaveiro - Rambo</Data></Cell>
+    <Cell><Data ss:Type="Number">0.2</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Almofada e Chaveiro Rambo confeccionada Pelúcia. enchimento, fibra de silicone antialérgica, Caneca branca resinada 325ml cilíndrica, com estampa do rambo&#160;&#160;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Chaveiros</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000021</Data></Cell>
+    <Cell><Data ss:Type="String">Caveiros Emojis</Data></Cell>
+    <Cell><Data ss:Type="Number">0.02</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Chaveiro Emoji pelúcia&#160;&#160;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Chaveiros</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000022</Data></Cell>
+    <Cell><Data ss:Type="String">Chaveiro Macaco</Data></Cell>
+    <Cell><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Chaveiro Emoji Macaco - pelúcia&#160;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000023</Data></Cell>
+    <Cell><Data ss:Type="String">Minnie Apenas com Laço</Data></Cell>
+    <Cell><Data ss:Type="Number">0.11</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Almofada Minie, Almofada preta com laço vermelho, confeccionada em tecido pelúcia enchimento em fibra de silicone antialérgico&#160;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000024</Data></Cell>
+    <Cell><Data ss:Type="String">Almofada Maçã Mordida</Data></Cell>
+    <Cell><Data ss:Type="Number">0.21</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Almofada Maçã Mordida , confeccionada em tecido pelúcia, acabamento&lt;br/&gt;em tecido e costura, enchimento fibra de silicone antialérgico&#160;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000025</Data></Cell>
+    <Cell><Data ss:Type="String">Emoji Sorvete</Data></Cell>
+    <Cell><Data ss:Type="Number">0.2</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Almofada Emoji Sorvete, confeccionada em tecido pelúcia, acabamento&lt;br/&gt;em tecido e costura, enchimento fibra de silicone antialérgico tamanho de&lt;br/&gt;33cm&lt;span&gt;&#160; &lt;/span&gt;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000026</Data></Cell>
+    <Cell><Data ss:Type="String">Almofada Emoji Lobo</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p style=&quot;text-align: left;&quot;&gt;Almofada emoji Lobo com ziper,&#160;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000027</Data></Cell>
+    <Cell><Data ss:Type="String">Emoji Coração</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Almofada Emoji Coração azul com zíper confeccionada em pelúcia com enchimentos de fibra siliconada anti alérgico&#160;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Canecas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000028</Data></Cell>
+    <Cell><Data ss:Type="String">Caneca gato cheshire</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Caneca Simples Branca&#160;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Chaveiros</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000029</Data></Cell>
+    <Cell><Data ss:Type="String">Chaveiro Diabinho</Data></Cell>
+    <Cell><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;chaveiro Emoji Diabinho&#160;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000030</Data></Cell>
+    <Cell><Data ss:Type="String">Almofada Nerd Boy</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Almofada Emoji Nerd Boy, com zíper confeccionado em pelúcia e fibra siliconada anti alérgico&#160;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000031</Data></Cell>
+    <Cell><Data ss:Type="String">Almofada Emoji Pensador</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Almofada pensador com zíper emoji pensador confeccionada em tecido pelúcia e enchimento fibra siliconada anti alérgico tamanho 33cm&#160;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="36"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Almofadas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000032</Data></Cell>
+    <Cell><Data ss:Type="String">Almofada Emoji Louco</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;p&gt;Almofada Emoji Louco com zíper&#160; Confeccionada em pelúcia e fibra siliconada anti alérgico 33cm&#160;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">Kits</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2000000000033</Data></Cell>
+    <Cell><Data ss:Type="String">três corações e realizado</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">&lt;p&gt;Kit com duas almofadas emojis com zíper confeccionadas em pelúcia e fibra siliconada anti alérgico tamanho de 33cm cada&#160;&lt;/p&gt;</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">True</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">48</Data></Cell>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">True</Data></Cell>
+    <Cell><Data ss:Type="String">True</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Data="&amp;A"/>
+    <Footer x:Data="Page &amp;P"/>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>9</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <RangeSelection>R2C1:R34C1</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C1</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;A,E,I&quot;</Value>
+   <InputTitle>Comando</InputTitle>
+   <InputMessage>Indica a ação a ser realizada: I=incluir A=alterar E=excluir</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C2</Range>
+   <Type>TextLength</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>25</Value>
+   <InputTitle>NomeCat</InputTitle>
+   <InputMessage>Nome da categoria. Na inclusão e na alteração de produtos, caso a categoria não existir ela será criada. Campo obrigatório na inclusão de produtos (até 25 caracteres).</InputMessage>
+   <ErrorMessage>O valor inserido não é válido</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C3</Range>
+   <Type>Whole</Type>
+   <Qualifier>GreaterOrEqual</Qualifier>
+   <Value>0</Value>
+   <InputTitle>IDProduto</InputTitle>
+   <InputMessage>Campo obrigatório para alteração e exclusão de produtos (ignorado na inclusão).</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C4</Range>
+   <Type>TextLength</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>15</Value>
+   <InputTitle>CodProd</InputTitle>
+   <InputMessage>Código de referência do produto, exibido ao visitante (até 15 caracteres).</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C5</Range>
+   <Type>TextLength</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>100</Value>
+   <InputTitle>NomeProd</InputTitle>
+   <InputMessage>Nome do produto (até 100 caracteres).</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C6</Range>
+   <Type>Decimal</Type>
+   <Qualifier>GreaterOrEqual</Qualifier>
+   <Value>0</Value>
+   <InputTitle>Peso</InputTitle>
+   <InputMessage>Peso do produto. A unidade (gramas ou quilogramas) é definida na página Dados da loja.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C7</Range>
+   <Type>TextLength</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>200</Value>
+   <InputTitle>Descricao</InputTitle>
+   <InputMessage>Texto descritivo do produto. Pode conter HTML (até 200 caracteres).</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C8</Range>
+   <Type>TextLength</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>1024</Value>
+   <InputTitle>DescrLonga</InputTitle>
+   <InputMessage>Texto descritivo (longo) do produto. Pode conter HTML (até 1024 caracteres).</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C9</Range>
+   <Type>TextLength</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>100</Value>
+   <InputTitle>DescrURL</InputTitle>
+   <InputMessage>URL para maiores detalhes do produto. Ex: http://www.sony.com.br/mavica (até 100 caracteres).</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C10</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;True,False&quot;</Value>
+   <InputTitle>URLTarget</InputTitle>
+   <InputMessage>Se True, URLTarget será exibida em nova janela de browser.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C11</Range>
+   <Type>Whole</Type>
+   <Qualifier>GreaterOrEqual</Qualifier>
+   <Value>0</Value>
+   <InputTitle>Estoque</InputTitle>
+   <InputMessage>Quantidade de itens do produto em estoque.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C12</Range>
+   <Type>Whole</Type>
+   <Qualifier>GreaterOrEqual</Qualifier>
+   <Value>0</Value>
+   <InputTitle>EstoqueMinimo</InputTitle>
+   <InputMessage>Quantidade mínima de itens do produto em estoque. Quando estoque ficar menor, será enviado e-mail para lojista. Se 0, não tem mínimo.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C13</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;True,False&quot;</Value>
+   <InputTitle>Disponivel</InputTitle>
+   <InputMessage>Se True, o produto está disponível no site.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C14</Range>
+   <Type>Decimal</Type>
+   <Qualifier>GreaterOrEqual</Qualifier>
+   <Value>0</Value>
+   <InputTitle>ICMS</InputTitle>
+   <InputMessage>Percentual de ICMS na origem do produto, para geração da nota fiscal.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C19</Range>
+   <Type>Decimal</Type>
+   <Qualifier>GreaterOrEqual</Qualifier>
+   <Value>0</Value>
+   <InputTitle>PrecoB2BProm</InputTitle>
+   <InputMessage>Preço promocional no atacado (B2B), antes de multiplicar pelo indexador de preços da loja.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C15</Range>
+   <Type>Decimal</Type>
+   <Qualifier>GreaterOrEqual</Qualifier>
+   <Value>0</Value>
+   <InputTitle>Custo</InputTitle>
+   <InputMessage>Custo do produto (nunca exibido ao visitante). Utilizado para cálculo nos relatórios de lucratividade.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C16</Range>
+   <Type>Decimal</Type>
+   <Qualifier>GreaterOrEqual</Qualifier>
+   <Value>0</Value>
+   <InputTitle>Preco</InputTitle>
+   <InputMessage>Preço de venda varejo (B2C), antes de multiplicar pelo indexador de preços da loja.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C17</Range>
+   <Type>Decimal</Type>
+   <Qualifier>GreaterOrEqual</Qualifier>
+   <Value>0</Value>
+   <InputTitle>PrecoProm</InputTitle>
+   <InputMessage>Preço promocional no varejo (B2C), antes de multiplicar pelo indexador de preços da loja.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C18</Range>
+   <Type>Decimal</Type>
+   <Qualifier>GreaterOrEqual</Qualifier>
+   <Value>0</Value>
+   <InputTitle>PrecoB2B</InputTitle>
+   <InputMessage>Preço de venda atacado (B2B), antes de multiplicar pelo indexador de preços da loja.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C23</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;True,False&quot;</Value>
+   <InputTitle>EmDestaque</InputTitle>
+   <InputMessage>Se Sim, indica que o produto tem destaque no layout da loja. Ver tag especial &lt;prod&gt;.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C22</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;True,False&quot;</Value>
+   <InputTitle>Lancamento</InputTitle>
+   <InputMessage>Se True, indica que o produto é lançamento.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C26</Range>
+   <Type>TextLength</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>200</Value>
+   <InputTitle>ImagemAmp</InputTitle>
+   <InputMessage>Nome do arquivo com a imagem ampliada do produto, com extensão (.jpg .gif .png ou .swf).</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C24</Range>
+   <Type>TextLength</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>200</Value>
+   <InputTitle>ImagemProd</InputTitle>
+   <InputMessage>Nome do arquivo com a imagem principal do produto, com extensão (.jpg .gif .png ou .swf).</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C25</Range>
+   <Type>TextLength</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>200</Value>
+   <InputTitle>ImagemDet</InputTitle>
+   <InputMessage>Nome do arquivo com a imagem de detalhe do produto, com extensão (.jpg .gif .png ou .swf).</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C36</Range>
+   <Type>Whole</Type>
+   <Min>0</Min>
+   <Max>24</Max>
+   <InputTitle>RamoProd</InputTitle>
+   <InputMessage>Indica o departamento no Shopping Virtuose: 0=nenhum 1=Animais 2=Alimentos 3=Arte 4=Esportes 5=Autos 6=Crianças 7=Beleza/Saúde 8=Brinquedos 9=Couros 10=Casa 12=Eletrônicos 13=Eletrodom 14=Flores 16=Informát 19=Moda 20=CD/DVD 21=Papelaria 22=Sex 23=Telef</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C32</Range>
+   <Type>TextLength</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>2048</Value>
+   <InputTitle>AdicionalD3</InputTitle>
+   <InputMessage>Texto da informação adicional sobre o produto, indicado em Descritor simples 3. Se multivalorado, colocar entre vírgulas.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C27</Range>
+   <Type>TextLength</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>1024</Value>
+   <InputTitle>Adicional1</InputTitle>
+   <InputMessage>ID para informação adicional sobre o produto, indicado em Descritor especial 1. Se multivalorado, colocar entre vírgulas.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C28</Range>
+   <Type>TextLength</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>1024</Value>
+   <InputTitle>Adicional2</InputTitle>
+   <InputMessage>ID para informação adicional sobre o produto, indicado em Descritor especial 2. Se multivalorado, colocar entre vírgulas.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C29</Range>
+   <Type>TextLength</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>1024</Value>
+   <InputTitle>Adicional3</InputTitle>
+   <InputMessage>ID para informação adicional sobre o produto, indicado em Descritor especial 3. Se multivalorado, colocar entre vírgulas.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C30</Range>
+   <Type>TextLength</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>2048</Value>
+   <InputTitle>AdicionalD1</InputTitle>
+   <InputMessage>Texto da informação adicional sobre o produto, indicado em Descritor simples 1. Se multivalorado, colocar entre vírgulas.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C31</Range>
+   <Type>TextLength</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>2048</Value>
+   <InputTitle>AdicionalD2</InputTitle>
+   <InputMessage>Texto da informação adicional sobre o produto, indicado em Descritor simples 2. Se multivalorado, colocar entre vírgulas.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C33</Range>
+   <Type>TextLength</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>1024</Value>
+   <InputTitle>Cores</InputTitle>
+   <InputMessage>ID das cores disponíveis do produto. Se multivalorado, colocar entre vírgulas.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C34</Range>
+   <Type>Whole</Type>
+   <Min>0</Min>
+   <Max>255</Max>
+   <InputTitle>OrdemProd</InputTitle>
+   <InputMessage>Indica a ordem de exibição do produto. Ordenação decrescente.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C35</Range>
+   <Type>Whole</Type>
+   <Qualifier>GreaterOrEqual</Qualifier>
+   <Value>0</Value>
+   <InputTitle>IDProdutoPai</InputTitle>
+   <InputMessage>Se preenchido, indica que este é um sub-produto e qual o ID do produto pai. Para exibir, ative os sub-produtos em Dados da loja.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C37</Range>
+   <Type>TextLength</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>50</Value>
+   <InputTitle>MaisProd</InputTitle>
+   <InputMessage>Indica termos de busca para produtos relacionados a este, entre vírgulas (cross-selling).</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C38</Range>
+   <Type>Date</Type>
+   <Min>36892</Min>
+   <Max>54789</Max>
+   <InputTitle>DataVencimento</InputTitle>
+   <InputMessage>Indica a data de vencimento do produto, quando será enviado e-mail de alerta ao lojista.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C39</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;0,15,30,45,60,90,120,150,180,210,240,270,300,330,360,390,420,450,480,510,540,570,600,630,660,690,720,750,780,810,840,870,900,930,960,990,1020,1050,1080&quot;</Value>
+   <InputTitle>DiasAvisoVencimento</InputTitle>
+   <InputMessage>Número de dias antes do vencimento do produto, quando será enviada o primeiro e-mail de alerta.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C40</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;0,15,30,45,60,90,120,150,180,210,240,270,300,330,360,390,420,450,480,510,540,570,600,630,660,690,720,750,780,810,840,870,900,930,960,990,1020,1050,1080&quot;</Value>
+   <InputTitle>DiasReposicao</InputTitle>
+   <InputMessage>Número de dias, em média, em que o produto é novamente adquirido pelo cliente. Decorridos estes dias após o pedido, um e-mail será enviado ao cliente para sugerir a reposição.</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C21</Range>
+   <Type>Date</Type>
+   <Qualifier>Greater</Qualifier>
+   <Value>37622</Value>
+   <InputTitle>DataPromFim</InputTitle>
+   <InputMessage>Data de término da promoção. Pode-se informar também a hora (ex: 10/05/2002 10:30).</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C20</Range>
+   <Type>Date</Type>
+   <Qualifier>Greater</Qualifier>
+   <Value>37622</Value>
+   <InputTitle>DataPromInicio</InputTitle>
+   <InputMessage>Data de início da promoção. Pode-se informar também a hora (ex: 10/05/2002 10:30).</InputMessage>
+   <ErrorMessage>O valor inserido não é válido.</ErrorMessage>
+   <ErrorTitle>Erro de consistência</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C41</Range>
+   <Type>Whole</Type>
+   <Qualifier>Greater</Qualifier>
+   <Value>0</Value>
+   <InputTitle>Exclusivo</InputTitle>
+   <InputMessage>Informe o ID do parceiro que terá exclusividade para o preço promocional do produto. Desta forma, é possível criar promoções válidas somente para visitantes cujo acesso seja proveniente de um parceiro ou revendedor específico.</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C42</Range>
+   <Type>Whole</Type>
+   <Min>0</Min>
+   <Max>999</Max>
+   <InputTitle>Máx Parc</InputTitle>
+   <InputMessage>Informe neste campo o número máximo de parcelas para pedidos que incluam este produto.&#10;&#10;Preencha 1 se este produto só é vendido à vista.</InputMessage>
+  </DataValidation>
+ </Worksheet>
+</Workbook>
